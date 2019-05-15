@@ -1,0 +1,143 @@
+.fondo{
+    background: black;
+}
+.container{
+    background: white;
+    border-radius: 0 0 20px 20px;
+    border: 2px solid #0b5c22;
+    box-shadow: 4px 4px #0b5c22;
+}
+.yiyi{
+    background-color: #0b5c22;
+}
+.cart{
+    background-image: url(img/cart-bg.png);
+    width: 70px;
+    height: 82px;
+    font-size: 2.5em;
+    color: white;
+    text-align: center right;
+    display: block;
+    margin-right: auto;
+}
+
+#text-center{
+    padding: 10px;
+}
+#lista{
+    margin: auto;    
+}
+#reto{
+    margin-top: 50px;
+}
+#row{
+    margin-top: 20px;
+}
+#foter{
+    margin-top: 10px;
+    background-color: #0b5c22;
+    text-align: center;
+    color:white;
+    padding: 6px;
+}
+#categoria{
+    background-color: #0b5c22;
+}
+.lista-productos{
+	width: 80%;
+	display: flex;
+	flex-flow: row wrap;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+#bebcita{
+    margin-bottom: 5px;
+}
+
+.producto{
+	flex: 20%;
+	border: 1px solid #0b5c22;
+	text-align: center;
+	margin: 7px;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #0b5c22;
+}
+.beba{
+    background-color:  #0b5c22;
+    margin-bottom: 15px;
+}
+
+.producto img{
+	width: 200px;
+}
+.info{
+    text-align: center;
+}
+#yapa{
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+#kokoro{
+    size: 7em;
+    color: #0b5c22;
+    padding-left: 50px;
+}
+#koko{
+    size: 7em;
+    color: #0b5c22;
+    padding-left: 50px;
+}
+#qwer{
+    color: #0b5c22;
+}
+#foooter{
+    size: 1em;
+    margin-top: 10px;
+    background-color: #333333;
+    text-align: center;
+    color: white;
+    padding: 6px;
+    border-radius: 30px 30px;
+    margin-bottom: 0px;
+}
+.body{
+    background-color: black;
+}
+#jaja{
+    color:  #0b5c22;
+}
+#conta{
+    padding-left: 25%;
+    padding-top: 4%;
+}
+#jojo{
+    size: 0.5em;
+    color: white;
+}
+.loader{
+    width: 100%;
+    text-align: center;
+}
+@media (min-width: 0px) and (max-width: 600px){
+    .producto{
+        flex: 40%;
+    }
+    .ocultar{
+        display: none;
+    }
+    .cart{
+        margin-left: 60%;
+    }
+}
+@media (min-width: 601px) and (max-width: 991px){
+    .producto{
+        flex: 40%;
+    }
+    .ocultar{
+        display: none;
+    }
+    .cart{
+        margin-left: 70%; 
+    }
+}
